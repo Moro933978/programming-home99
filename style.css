@@ -4,6 +4,17 @@
     --main-color: rgb(0, 102, 255);
 }
 
+.contentmain{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-radius: 8px;
+    background-color: #d8d8d8;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
 ::-webkit-scrollbar {
     width: 12px; 
 }
