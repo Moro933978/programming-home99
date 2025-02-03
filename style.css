@@ -66,6 +66,7 @@ button{
 }
 
 .welcome{
+    position: relative;
     height: 120vh;
     background: url(wallpaperflare.com_wallpaper.jpg);
     background-size: cover;
