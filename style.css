@@ -98,8 +98,7 @@ nav{
     right: 0;
     left: 0;
     top: 0;
-    background-color: transparent;
-    backdrop-filter: blur(60px);
+    background-color: #ffffffcc;
     z-index: 1032;
 }
 
@@ -503,7 +502,7 @@ footer div{
     position: fixed;
     top: 0;
     right: -250px;
-    height: 100%;
+    height: 100% !important;
     width: 250px;
     background-color: #000000de;
     color: white;
