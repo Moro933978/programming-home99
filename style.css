@@ -28,7 +28,67 @@
     scroll-behavior: smooth;
 }   
 
+        .welcome{
+            position: relative;
+            justify-content: center;
+            min-height: 100vh;
+            background-size: cover;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            background-position: center center;
+            height: 95vh;
+            text-align: center;
+            flex-direction: column;
+        }
+    
+        .informaintion-of-programming a{
+            background-color: #fff;
+        }
+
+        input{
+            z-index: 30;
+        }
+    
+        .waves {
+            position: absolute;
+            width: 100%;
+            height: 112px;
+            bottom: 0;
+        }
+        .parallax use {
+            animation: wave-animation 4s infinite linear;
+        }
+        .parallax use:nth-child(1) {
+            animation-duration: 4s;
+            animation-delay: -2s;
+        }
+        .parallax use:nth-child(2) {
+            animation-duration: 6s;
+            animation-delay: -3s;
+        }
+
+
+        .parallax use:nth-child(3) {
+            animation-duration: 8s;
+            animation-delay: -4s;
+        }
+        .parallax use:nth-child(4) {
+            animation-duration: 10s;
+            animation-delay: -5s;
+        }
+        @keyframes wave-animation {
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+
 body{
+    background-color: black;
+    color: #fff;
     margin: 0;
     padding: 0;
 }
@@ -38,7 +98,8 @@ nav{
     right: 0;
     left: 0;
     top: 0;
-    background-color: #000000de;
+    background-color: transparent;
+    backdrop-filter: blur(60px);
     z-index: 1032;
 }
 
